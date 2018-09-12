@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     /* Basic Options */
-    "target": "es2017",                       /* 指定 Typescript 文件编译为 ES2017 版本. */
+    "target": "esnext",                       /* 指定 Typescript 文件编译为 ES2017 版本. */
     "module": "commonjs",                     /* 指定生成 commonjs 模块系统代码. */
     "sourceMap": true,                        /* 生成相应的 '.map' 文件. */
     "outDir": "dist",                         /* 重定向输出目录. */

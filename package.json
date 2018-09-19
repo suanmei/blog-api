@@ -5,10 +5,8 @@
   "main": "dist/app.js",
   "scripts": {
     "start": "npm run serve",
-    "dev": "npm run watch-ts & nodemon dist/app.js || true",
-    "tslint": "tslint -c tslint.json -p tsconfig.json",
-    "build-ts": "tsc",
-    "watch-ts": "tsc -w"
+    "dev": "nodemon src/app.ts",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -34,6 +32,7 @@
   "devDependencies": {
     "@types/koa": "^2.0.46",
     "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "typescript": "^3.0.3"
   }

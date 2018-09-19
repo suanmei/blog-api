@@ -4,6 +4,6 @@
     "src"
   ],
   "execMap": {
-    "js": "node"
+    "ts": "ts-node"
   }
 }
